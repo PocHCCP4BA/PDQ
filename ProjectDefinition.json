@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/PDQ/ProjectDefinition.json",
+  "title": "PDQ",
+  "ba_description": "",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "PDQ",
+  "ba_expectedDocTypes": 0,
+  "ba_id": "bcece6d8-397a-44e0-9ecb-2e7224ea57e2",
+  "ba_dataDefinitions": [],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_HRPDQ.json",
+      "title": "HRPDQ",
+      "caDocTypeId": "e95583c8-e41b-406c-b9ec-12eb300630c4"
+    }
+  ],
+  "ba_caDefinitions": "",
+  "ba_caProjectDescriptor": "16733d5b-94d6-433c-90f7-8792d62cae14",
+  "ba_snapshotName": "",
+  "ba_versionId": ""
+}
